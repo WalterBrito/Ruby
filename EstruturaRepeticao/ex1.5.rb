@@ -1,8 +1,8 @@
 # -*- coding: UTF-8 -*-
 
-'''
-Faça um Programa que converta metros para centímetros.
-'''
+
+# Faça um Programa que converta metros para centímetros.
+
 puts '=============================================='
 print "Digite o valor em metros: "
 metros = gets.chomp
