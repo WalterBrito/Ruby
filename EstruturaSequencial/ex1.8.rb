@@ -12,9 +12,9 @@ horaTrab = gets.chomp
 print "Quanto horas voce trabalha no mes?: "
 horasTrabMes = gets.chomp
 
-total = (horaTrab.to_i * 60) + (horasTrabMes.to_i * 30)
+salario = (horaTrab.to_i * horasTrabMes.to_i)
 puts "Voce ganha por hora: R$ #{horaTrab}.00".to_s
 puts "O numero de horas trabalhadas no mes e: #{horasTrabMes}".to_s
-puts "O valor do seu salario e: R$ #{total}.00".to_s
+puts "O valor do seu salario e: R$ #{salario}.00".to_s
 
 puts "======================================================"
