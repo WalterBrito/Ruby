@@ -19,7 +19,7 @@ areaMetros = gets.chomp.to_i
 
 areaLitros = areaMetros / 6
 
-capacidadeLata = 18 # 1 lata suporta 18 litros
+capacidadeLata = 18 # 1 lata suporta 18 litros de tinta
 precoLata = 80.00
 capacidadeGaloes = 3.6
 precoGalao = 25.00
