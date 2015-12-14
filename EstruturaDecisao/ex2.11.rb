@@ -15,4 +15,25 @@ o novo salário, após o aumento.
 =end
 
 puts "======================================================="
+
+print "Digite o valor do salario: "
+salario = gets.chomp.to_f
+print "Digite o valor do percentual: "
+percentual = gets.chomp.to_i
+
+if salario <= 280
+	aumento = (salario * 20) / 100
+elsif salario > 280 and salario <= 700
+	aumento = (salario * 15) / 100
+elsif salario > 700 and salario <= 1500
+	aumento = (salario * 10) / 100
+else
+	aumento = (salario * 5) / 100
+end
+
+puts "O salario antes do reajuste: R$ #{salario}".to_s 
+puts "O percentual do aumento aplicado: #{percentual}".to_s + "%"
+puts "O valor do aumento:  R$ #{aumento}".to_s
+puts "Valor do novo salario: R$ #{(salario + aumento)}".to_s
+
 puts "======================================================="
