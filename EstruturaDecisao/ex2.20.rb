@@ -18,7 +18,7 @@ puts "========================================================"
 print "Digite um numero: "
 num = gets.chomp.to_i
 numStr = String.try_convert(num)
-qtNumero = [numStr].length
+qtNumero = numStr.length
 
 
 if qtNumero == 3

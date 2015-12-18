@@ -14,7 +14,7 @@ num =  gets.chomp.to_i
 
 x = num - (num).to_i
 
-if num == 0
+if (num).round == num
 	puts "O numero #{num} e inteiro!"
 else
 	puts "O numero #{num} e decimal."

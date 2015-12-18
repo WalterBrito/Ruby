@@ -21,7 +21,7 @@ print "Qual o valor do saque R$: "
 valorSaque = gets.chomp.to_i
 
 numStr = String.try_convert(valorSaque)
-quantNum = [numStr].length
+quantNum = numStr.length
 nota100  = "nota(s) de cem"
 nota50   = "nota(s) de cinquenta"
 nota10   = "nota(s) de dez"
