@@ -7,6 +7,8 @@ divisões que ele executou para encontrar os números primos. Serão avaliados o
 funcionamento, o estilo e o número de testes (divisões) executados.
 =end
 
+# Errada.
+
 puts "============================================================="
 
 print "Digite um numero: "
@@ -31,8 +33,8 @@ while testePrimo < n
 	if v == 1
 	end
 		print("Primo: %d" % i)
-		testePrimo += 1
-		print("Divisoes: %d" % divisao)
+	testePrimo += 1
+print("Divisoes: %d" % divisao)
 end
 
 puts "============================================================="
