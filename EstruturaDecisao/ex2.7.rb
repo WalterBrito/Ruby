@@ -2,7 +2,7 @@
 
 # Faça um Programa que leia três números e mostre o maior e o menor deles.
 
-puts "======================================================="
+puts "========================================================"
 
 puts "Digite o primeiro numero: "
 a = gets.chomp.to_i
@@ -27,4 +27,4 @@ else
 	puts "O numero #{c} e o menor"
 end
 
-puts "======================================================="
+puts "========================================================"

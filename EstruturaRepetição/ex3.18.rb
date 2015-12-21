@@ -5,7 +5,7 @@ Altere o programa de cálculo dos números primos, informando, caso o número
 não seja primo, por quais número ele é divisível.
 =end
 
-puts "=============================================================="
+puts "==============================================================="
 
 print "Digite um numero: "
 num = gets.chomp.to_i
@@ -27,5 +27,5 @@ else
 	puts "Numero nao e primo, pois e divisível por #{a}"
 end
 
-puts "=============================================================="
+puts "==============================================================="
 
