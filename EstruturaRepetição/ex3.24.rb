@@ -27,5 +27,4 @@ valorMedio = (valorTotal / valorCD).round(2)
 puts "O valor total gasto: #{valorTotal}"
 puts "O valor medio gasto por cada cd foi de #{valorMedio} reais."
 
-
 puts "=============================================================="

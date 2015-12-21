@@ -37,5 +37,4 @@ puts "Voce pagou ao inss:#{inss}".to_s
 puts "Voce pagou ao sindicato: #{sindicato}".to_s
 puts "Salario liquido: R$ #{salarioBruto - impostoRenda - inss - sindicato}".to_s
 
-
 puts "====================================================="

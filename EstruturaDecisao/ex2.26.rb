@@ -14,7 +14,7 @@ classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino".
 Caso contrário, ele será classificado como "Inocente".
 =end
 
-puts "========================================================"
+puts "========================================================="
 
 print "Telefonou para a vítima? (S ou N): "
 pergunta1 = gets.chomp.to_s
@@ -76,4 +76,4 @@ else
 end
 
 
-puts "========================================================"
+puts "========================================================="

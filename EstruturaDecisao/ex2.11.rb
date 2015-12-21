@@ -14,7 +14,7 @@ o valor do aumento;
 o novo salário, após o aumento. 
 =end
 
-puts "======================================================="
+puts "========================================================"
 
 print "Digite o valor do salario: "
 salario = gets.chomp.to_f
@@ -36,4 +36,4 @@ puts "O percentual do aumento aplicado: #{percentual}".to_s + "%"
 puts "O valor do aumento:  R$ #{aumento}".to_s
 puts "Valor do novo salario: R$ #{(salario + aumento)}".to_s
 
-puts "======================================================="
+puts "========================================================"

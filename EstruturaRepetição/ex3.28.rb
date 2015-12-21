@@ -26,5 +26,4 @@ end
 
 puts "Resultado Fatorial de #{num} = #{fatorial}" 
 
-
 puts "=============================================================="

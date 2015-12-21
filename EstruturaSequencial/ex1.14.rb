@@ -13,7 +13,6 @@ o conteúdo ZERO.
 
 puts "======================================================="
 
-
 puts "Digite a quantidade de peixes (Kg): "
 quant = gets.chomp.to_i
 pesoPeixe = 50
@@ -32,6 +31,5 @@ else
 	puts "Voce esta dentro do limite permitido."
 	puts "Voce esta isento da multa.".to_s
 end
-
 
 puts "======================================================="

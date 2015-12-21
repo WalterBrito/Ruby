@@ -6,7 +6,7 @@ matutino ou V-Vespertino ou N-Noturno. Imprima a mensagem "Bom Dia!",
 "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
 =end
 
-puts "======================================================="
+puts "========================================================"
 
 print "Digite o turno  (M) Matutino, (V) Vespertino, (N) Noturno: "
 turno = gets.chomp.to_s
@@ -21,4 +21,4 @@ else
 	puts "Valor Invalido".to_s
 end
 
-puts "======================================================="
+puts "========================================================"

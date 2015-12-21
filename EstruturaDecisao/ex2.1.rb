@@ -2,7 +2,7 @@
 
 # Faça um Programa que peça dois números e imprima o maior deles.
 
-puts "======================================================"
+puts "======================================================="
 
 print "Digite o primeiro numero (a): "
 a = gets.chomp
@@ -15,4 +15,4 @@ else
 	puts "#{b} e maior que #{a}."
 end
 
-puts "======================================================"
+puts "======================================================="

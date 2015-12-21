@@ -6,7 +6,7 @@ Faça um Programa que peça um número correspondente a um determinado ano e
 em seguida informe se este ano é ou não bissexto.	
 =end
 
-puts "========================================================"
+puts "========================================================="
 
 print "Digite um ano (ex. 2015): "
 anoBi = gets.chomp.to_i
@@ -18,4 +18,4 @@ else
 end
 
 
-puts "========================================================"
+puts "========================================================="

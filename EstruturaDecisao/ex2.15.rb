@@ -6,7 +6,7 @@ a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se
 o conceito for D ou E.	
 =end
 
-puts "====================================================="
+puts "======================================================"
 
 print "Digite a primeira nota: "
 nota1 = gets.chomp.to_f
@@ -34,4 +34,4 @@ end
 
 puts "Media: #{media}"
 
-puts "====================================================="
+puts "======================================================"

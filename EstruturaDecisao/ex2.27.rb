@@ -15,7 +15,7 @@ imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da
 gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.	
 =end
 
-puts "========================================================"
+puts "========================================================="
 
 
 print "Quantos litros voce deseja:  "
@@ -48,4 +48,4 @@ if combustivel == "G" or combustivel == "g"
 end
 
 
-puts "========================================================"
+puts "========================================================="

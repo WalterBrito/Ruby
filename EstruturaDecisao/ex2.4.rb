@@ -2,7 +2,7 @@
 
 # Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
 
-puts "======================================================"
+puts "======================================================="
 
 print "Digite (Vogal ou Consoante): "
 letra = gets.chomp.to_s
@@ -13,4 +13,4 @@ else
 	puts "Letra digitada e uma consoante."
 end
 
-puts "======================================================"
+puts "======================================================="

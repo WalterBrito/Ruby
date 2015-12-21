@@ -15,7 +15,7 @@ d. Se o delta for positivo, a equação possui duas raizes reais;
 informe-as ao usuário;	
 =end
 
-puts "======================================================"
+puts "======================================================="
 
 print "Digite o primeiro numero: "
 a = gets.chomp.to_i
@@ -44,4 +44,4 @@ else
 end
 
 
-puts "======================================================"
+puts "======================================================="

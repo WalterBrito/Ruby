@@ -16,7 +16,7 @@ da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do
 desconto e valor a pagar.	
 =end
 
-puts "========================================================"
+puts "========================================================="
 
 precoFileDuplo1 = 4.9
 precoFileDuplo2 = 5.8
@@ -322,4 +322,4 @@ end
 		end
 	end    
 
-puts "========================================================"
+puts "========================================================="

@@ -33,7 +33,4 @@ puts "Numero de votos Candidato 1: #{soma1}"
 puts "Numero de votos Candidato 2: #{soma2}" 
 puts "Numero de votos Candidato 3: #{soma3}" 
 
-
-
-
 puts "=============================================================="

@@ -8,7 +8,7 @@ deve calcular a média alcançada por aluno e apresentar:
 * A mensagem "Aprovado com Distinção", se a média for igual a dez.	
 =end
 
-puts "======================================================"
+puts "======================================================="
 
 print "Digite a primeira nota: "
 nota1 = gets.chomp.to_f
@@ -28,4 +28,4 @@ elsif media < 7
 	puts "Reprovado".to_s
 end
 
-puts "======================================================"
+puts "======================================================="

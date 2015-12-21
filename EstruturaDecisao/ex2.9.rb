@@ -2,7 +2,7 @@
 
 # Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
-puts "======================================================="
+puts "========================================================"
 
 print "Digite o primeiro numero: "
 a = gets.chomp.to_i
@@ -19,4 +19,4 @@ else
 	puts "Ordem decrescente: #{c} #{b} #{a}".to_s
 end
 
-puts "======================================================="
+puts "========================================================"

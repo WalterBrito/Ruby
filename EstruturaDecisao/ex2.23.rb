@@ -5,7 +5,7 @@ Faça um Programa que peça um número inteiro e determine se ele é par ou impa
 Dica: utilize o operador módulo (resto da divisão).
 =end
 
-puts "========================================================"
+puts "========================================================="
 
 print "Digite um numero: "
 num = gets.chomp.to_i
@@ -17,4 +17,4 @@ else
 end
 
 
-puts "========================================================"
+puts "========================================================="

@@ -24,5 +24,4 @@ end
 puts "Numeros Pares: #{par}" 
 puts "Numeros Impares: #{impar}" 
 
-
 puts "=============================================================="

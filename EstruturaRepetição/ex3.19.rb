@@ -32,9 +32,9 @@ while testePrimo < n
 	end
 	if v == 1
 	end
-		print("Primo: %d" % i)
+		puts "Primo: #{i}"
 	testePrimo += 1
-print("Divisoes: %d" % divisao)
+puts "Divisoes: #{divisao}" 
 end
 
 puts "============================================================="

@@ -14,5 +14,4 @@ peso = ((72.7*altura.to_f) - 58).round(1)
 
 puts "Seu peso ideal e: #{peso}".to_s
 
-
 puts "======================================================="

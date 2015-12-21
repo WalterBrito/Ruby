@@ -23,7 +23,7 @@ Salário liquido						: R$ 935,00
 =end
 
 
-puts "====================================================="
+puts "======================================================"
 
 print "Digite o numero de horas trabalhadas: "
 horas = gets.chomp.to_f
@@ -58,4 +58,4 @@ elsif bruto > 1500
        puts "Total de descontos: R$ #{cinco + dez + onze}"
 end
 
-puts "====================================================="
+puts "======================================================"

@@ -27,5 +27,4 @@ puts "paisA: ", paisA.round(1)
 puts "paisB: ", paisB.round(1)
 puts "Pais A ultrapassará pais B ou ira se igualar em: #{anos} anos." 
 
-
 puts "============================================================="

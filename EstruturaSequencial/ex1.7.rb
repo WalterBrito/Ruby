@@ -15,5 +15,4 @@ areaQuadrado = (area.to_i ** 2) * 2
 
 puts "A area do quadrado e #{areaQuadrado}".to_s
 
-
 puts '====================================================='

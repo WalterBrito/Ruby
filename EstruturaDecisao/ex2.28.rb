@@ -12,7 +12,7 @@ Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade
 =end
 
 
-puts "========================================================"
+puts "========================================================="
 
 precoMorango1 = 2.5
 precoMorango2 = 2.2
@@ -49,4 +49,4 @@ puts "Voce comprou #{maca} Kg de macas."
 puts "Preco: R$ #{totalApagar}" 
 
 
-puts "========================================================"
+puts "========================================================="

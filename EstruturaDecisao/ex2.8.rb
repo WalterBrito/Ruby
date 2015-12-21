@@ -5,7 +5,7 @@ Faça um programa que pergunte o preço de três produtos e informe qual produto
 você deve comprar, sabendo que a decisão é sempre pelo mais barato.	
 =end
 
-puts "======================================================="
+puts "========================================================"
 
 print "Digite o preco do produto (1): "
 produto1 = gets.chomp.to_f
@@ -22,4 +22,4 @@ else
 	puts "O produto com valor R$ #{produto3} e o mais barato.".to_s
 end
 
-puts "======================================================="
+puts "========================================================"

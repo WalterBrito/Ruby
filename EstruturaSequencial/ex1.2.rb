@@ -6,7 +6,9 @@ informado foi [número]''.
 =end
 
 puts '=============================================='
+
 print "Digite um numero: "
 numero = gets()
 puts "O numero informado foi #{numero}"
+
 puts '=============================================='
