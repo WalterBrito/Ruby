@@ -5,8 +5,6 @@ Faça um Programa que leia um vetor de 5 números inteiros, mostre a soma, a
 multiplicação e os números.
 =end
 
-# Erro nao insere no vetor.
-
 puts "======================================================="
 
 vetor = []
@@ -16,7 +14,7 @@ mult = 1
 for i in (0..4)
 	print "Digite o #{i + 1} numero: "
 	num = gets.chomp.to_i
-	vetor.insert(num)
+	vetor.insert(1, num)
 	soma += num
 	mult *= num	
 end

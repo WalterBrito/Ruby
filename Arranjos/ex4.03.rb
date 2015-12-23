@@ -10,13 +10,13 @@ notas = []
 media = 0
 
 for i in (0..3)
-	puts "Digite a nota #{i + 1}: " 
+	print "Digite a nota #{i + 1}: " 
 	notas.insert(gets.chomp.to_f)
 end
 
 for i in [notas].length
 	media += notas[i]
-media /= len(notas)
+media /= [notas].length
 end
 
 puts "Media: #{media}"

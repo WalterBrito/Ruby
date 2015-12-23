@@ -5,25 +5,23 @@ Faça um Programa que leia um vetor de 10 caracteres, e diga quantas consoantes
 foram lidas. Imprima as consoantes.
 =end
 
-# Errado
 
 puts "========================================================"
 
-consoantes = []
-vogais = 'aeiou'
+letras = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+ 
+i = 0
+soma = 0
+vetorConsoantes = []
 
 for i in (0..9)
-	puts "Digite uma letra: "
-	consoantes.insert(gets.chomp.to_s)
-count = 0
+    if letras[i] != "a" and letras[i] != "e" and letras[i] != "i" and letras[i] != "o" and letras[i] != "u"
+        soma += 1
+        vetorConsoantes.insert(1, letras[i])
+    i = i + 1
+	end
 end
-
-for c in consoantes
-	do_this if ! consoantes[].include?
-		puts c
-		count += 1
-end
-puts "\nConsoantes: #{count}"
-
+puts "N° de consoantes: #{soma}"
+puts "Consoantes: #{vetorConsoantes}"
 
 puts "========================================================"

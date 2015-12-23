@@ -5,13 +5,13 @@ Faça um Programa que peça as quatro notas de 10 alunos, calcule e armazene num
 vetor a média de cada aluno, imprima o número de alunos com média maior ou
 igual a 7.0.
 """
-# Erro Linha 24.
+# Erro Linha 25.
 
 puts "========================================================"
 
 alunosmedia = []
 
-for i in (0..9)
+for i in (0...2)
 	puts "Nota aluno #{i + 1}" 
 	media = 0
 	for y in (0..3)
