@@ -30,7 +30,7 @@ end
 
 def criaLinha(linha)
 	l = '+'
-	for x in [linha] do  # Erro no range
+	for x in linha do  # Erro no range
 		l += '-'
 	end
 	l += '+'
@@ -38,8 +38,8 @@ def criaLinha(linha)
 end
 
 def criaColuna(linha, coluna)
-	for y in [coluna] do 		# Erro no range
-		for y in [coluna] do 	# Erro no range
+	for y in coluna do 	# Erro no range
+		for y in coluna do  	# Erro no range
 			c = '|'
 			c += ' '* linha
 			c += '|'
