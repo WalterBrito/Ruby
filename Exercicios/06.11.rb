@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# Precisa de correção
+
 =begin
 Escreva um programa que gere um dicionário, onde cada chave seja um 
 caractere, e seu valor seja o número desse caractere encontrado em
@@ -14,7 +16,7 @@ print("Digite uma palavra: ")
 palavra = gets.chomp.to_s
 d = {}
 
-letra.each do |letra, palavra|  
+for letra in palavra
 	if letra in d
 		d[letra] += 1
 	else

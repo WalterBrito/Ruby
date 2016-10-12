@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# Precisa de correção
+
 =begin
 Faça um progra com esqtoque e opeção de vendas. O programa
 deve solicitar ao usuário o produto e a quantidade vendida. 

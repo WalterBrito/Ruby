@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# Precisa de correção
+
 =begin
 Faça um programa que leia duas listas e que gere uma 
 terceira com os elementos das duas primeiras.
@@ -33,8 +35,8 @@ while true
     l2 << lista2.to_i
 end
 
-l3 << (l1[0,100])
-l3.itself(l2)
+l3 << l1[0,100]
+l3 << l2
 
 printf("l1 =\n", l1)
 printf("l2 =\n", l2)
