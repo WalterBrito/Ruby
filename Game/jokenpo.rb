@@ -22,7 +22,7 @@ opcoes = {
 
 novoJogo = 's' 
 
-while novoJogo == 's'
+while novoJogo == 's' 
 
 	opcoes.each do |k, v|
 		puts("#{k} - #{v}")
@@ -45,8 +45,7 @@ while novoJogo == 's'
 	print(calculaVencedor(suaEscolha, pcEscolha))
 
 	print("\n\nDeseja jogar novamente? (s/n): ")
-	novoJogo = gets.chomp			
-	
+	novoJogo = gets.chomp 
 end 
 
 puts('Até a proxima!')
