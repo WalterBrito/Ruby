@@ -13,7 +13,7 @@ soma = 0
 for i in (0..9)
 	print "Numero #{i + 1}: "
 	num = gets.chomp.to_i
-	vetorA.insert(1, num)
+	vetorA << num
 	soma += num ** 2
 end
 

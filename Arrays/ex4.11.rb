@@ -20,24 +20,24 @@ puts "Numeros Vetor 1"
 for i in (0..9)
 	print "Numero #{i + 1}: "
 	v1 = gets.chomp.to_i
-	vetor1.insert(1, v1)
-	vetor4.insert(1, v1)	
+	vetor1 << v1
+	vetor4 << v1
 end
 
 puts "\nNumeros Vetor 2"
 for i in (0..9)
 	print "Numero #{i + 1}: "
 	v2 = gets.chomp.to_i
-	vetor2.insert(1, v2)
-	vetor4.insert(1, v2)	
+	vetor2 << v2
+	vetor4 << v2
 end
 
 puts "\nNumeros Vetor 3"
 for i in (0..9)
 	print "Numero #{i + 1}: "
 	v3 = gets.chomp.to_i
-	vetor3.insert(1, v3)
-	vetor4.insert(1, v3)	
+	vetor3 << v3
+	vetor4 << v3
 end
 
 # reverse! para imprimir na ordem digitadas, pois ficam na ordem inversa.

@@ -13,24 +13,25 @@ puts "======================================================"
 idades = [14, 12, 13, 16, 18, 20, 13]
 alturas = [1.8, 1.9, 1.0, 2.0, 1.4, 1.3, 1.85]
 soma = 0
- 
+
 somaAltura = 0
 a = 0
-while a < alturas.length
-    somaAltura = somaAltura + alturas[a]
-    a = a + 1
+
+(alturas.size).each do |a|
+    somaAltura += alturas[a]
+    a += 1
 end
- 
-media = somaAltura/(alturas.length)
- 
+
+media = somaAltura / (alturas.length)
+
 i = 0
 while i < idades.length
-    if idades[i]>13 and alturas[i] < media
+    if idades[i] > 13 and alturas[i] < media
         soma = soma + 1
     i = i + 1
 	end
 end
- 
+
 puts "Alunos com altura inferior a media: #{soma} "
 
 puts "======================================================"

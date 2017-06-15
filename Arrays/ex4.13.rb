@@ -19,7 +19,7 @@ for i in (0..11)
 	puts "\n"+meses[i]
 	print "Mes %d" % (i + 1) + ": "
 	mesesAno = gets.chomp.to_i
-	tempAno.insert(1, mesesAno)
+	tempAno << mesesAno
 	i += 1
 end
 
@@ -32,14 +32,14 @@ end
 
 mediaTemp = somaTemp / tempAno.length
 
-puts "Media anual da temperatura: #{mediaTemp} graus." 
+puts "Media anual da temperatura: #{mediaTemp} graus."
 puts "Meses com temperatura acima da media:"
 
 soma = 0
 i = 0
 while i < tempAno.length
 	if tempAno[i] > mediaTemp
-		puts "#{meses[i]}  #{tempAno[i]} graus." 
+		puts "#{meses[i]}  #{tempAno[i]} graus."
 		soma += 1
 	i += 1
 	end

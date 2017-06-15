@@ -9,15 +9,16 @@ foram lidas. Imprima as consoantes.
 puts "========================================================"
 
 letras = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
- 
+
 i = 0
 soma = 0
 vetorConsoantes = []
 
-for i in (0..9)
-    if letras[i] != "a" and letras[i] != "e" and letras[i] != "i" and letras[i] != "o" and letras[i] != "u"
+for i in (0...10)
+    if letras[i] != "a" and letras[i] != "e" and letras[i] != "i" and letras[i]\
+      != "o" and letras[i] != "u"
         soma += 1
-        vetorConsoantes.insert(1, letras[i])
+        vetorConsoantes << letras[i]
     i = i + 1
 	end
 end

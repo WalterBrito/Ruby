@@ -12,21 +12,21 @@ idade = []
 altura = []
 
 for i in (0..4)
-	puts "Pessoa #{i + 1}" 
+	puts "Pessoa #{i + 1}"
 	for y in (0...1)
 		print "Digite sua idade: "
 		a = gets.chomp.to_i
 		print "Digite sua altura: "
 		b = gets.chomp.to_f
 	end
-	idade.insert(1,a)
-	altura.insert(1, b)
+	idade << a
+	altura << b
 	i += 1
 end
 
 idade.reverse
 puts "Idade #{idade}"
 altura.reverse
-puts "Altura #{altura}"	
+puts "Altura #{altura}"
 
 puts "======================================================="

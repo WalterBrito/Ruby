@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 
 =begin
 Faça um Programa que leia 20 números inteiros e armazene-os num vetor.
@@ -12,21 +12,21 @@ vetor = []
 par = []
 impar = []
 
-for i in (1..20) 
+for i in (1..20)
 	print "Digite um numero: "
 	num = gets.chomp.to_i
-	vetor.insert(1, num)
+	vetor << num
 	if num % 2 == 0
-		par.insert(1, num)
+		par << num
 	else
-		impar.insert(1, num)
+		impar << num
 	end
 end
 
 # Utilizei o reverse!, pois estava imprimindo do maior para o menor nos vetores.
 vetor.reverse!
 puts "Vetor: #{vetor}"
-par.reverse!		
+par.reverse!
 puts "Numeros Pares: #{par}"
 impar.reverse!
 puts "Numeros Impares: #{impar}"

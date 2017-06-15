@@ -25,47 +25,47 @@ valores = []
 i = 0
 soma = 0
 
+puts "Digite -1 para sair."
 while true
-	puts "Digite -1 para sair."
-	print "Numero #{i + 1}: " 
+	print "Numero #{i + 1}: "
 	num = gets.chomp.to_i
 	if num == -1
 		break
 	end
-	valores.insert(1, num)
+	valores << num
 end
-	
+
 puts "Quantidade de valores: #{valores.length}"
 
 valores.reverse!
-puts "Numeros informados: #{valores}"	
+puts "Numeros informados: #{valores}"
 
 valores.reverse
 print "Numeros na ordem inversa: #{i}"
 
-for i in [valores] do
+for i in (valores.size)
 	puts "#{soma}"
 	soma += i
 end
-	
+
 media = soma / valores.length
 puts "Media: #{media}"
 
 quantAcimaMedia = 0
 for i in (valores) do
-	if i > media 
+	if i > media
 		quantAcimaMedia += 1
 	end
 end
 puts "Quantidade acima da media: #{quantAcimaMedia}"
-		
+
 quantAbaixo7 = 0
 for i in (valores) do
 	if i < 7
 		quantAbaixo7 += 1
 	end
 end
-puts "Quantidade abaixo da sete: #{quantAbaixo7}"			
+puts "Quantidade abaixo da sete: #{quantAbaixo7}"
 
 puts "Fim"
 

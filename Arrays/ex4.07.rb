@@ -14,9 +14,9 @@ mult = 1
 for i in (0..4)
 	print "Digite o #{i + 1} numero: "
 	num = gets.chomp.to_i
-	vetor.insert(1, num)
+	vetor << num
 	soma += num
-	mult *= num	
+	mult *= num
 end
 
 puts "Voce digitou: #{vetor}"

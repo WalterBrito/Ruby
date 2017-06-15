@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ << g:utf-8 -*-
 
 =begin
 Faça um Programa que leia dois vetores com 10 elementos cada. Gere um terceiro
@@ -16,16 +16,16 @@ puts "Numeros Vetor 1"
 for i in (0..9)
 	print "Numero #{i + 1}: "
 	v1 = gets.chomp.to_i
-	vetor1.insert(1, v1)
-	vetor3.insert(1, v1)	
+	vetor1 << v1
+	vetor3 << v1
 end
 
-puts "\nNumeros Vetor 2"
+puts "Numeros Vetor 2"
 for i in (0..9)
 	print "Numero #{i + 1}: "
 	v2 = gets.chomp.to_i
-	vetor2.insert(1, v2)
-	vetor3.insert(1, v2)	
+	vetor2 << v2
+	vetor3 << v2
 end
 
 # reverse! para imprimir na ordem digitadas, pois ficam na ordem inversa.

@@ -48,7 +48,7 @@ end
 
 for v in vende
 	puts "vendedor: R$ #{v}"
-	for f, q in faixas() # errado
+	for f, q in faixas # errado
 		if v > f[0] and v < f[1]
 			faixas[f] = q + 1
 			puts "Faixa Salarial: #{f}"
@@ -60,7 +60,7 @@ end
 puts " 			 Relatorio Inicial         "
 puts "Faixa\t\t\tQuantidade de vendedores"
 for k, v in sort(faixas) # errado
-	puts "#{k[0]} #{k[1]}\t\t\t #{v}" 
+	puts "#{k[0]} #{k[1]}\t\t\t #{v}"
 end
 
 
